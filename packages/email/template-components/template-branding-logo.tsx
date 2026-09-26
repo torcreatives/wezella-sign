@@ -21,9 +21,9 @@ export const TemplateBrandingLogo = ({ assetBaseUrl, className = 'mb-4 h-6' }: T
   const hasCustomBrandingLogo = branding.brandingEnabled && Boolean(branding.brandingLogo);
 
   if (!hasCustomBrandingLogo) {
-    const documensoLogoUrl = getEmailAssetUrl(assetBaseUrl, 'static/logo.png');
+    const wezellaLogoUrl = getEmailAssetUrl(assetBaseUrl, 'static/logo.png');
 
-    return <Img src={documensoLogoUrl} alt="Documenso Logo" className={className} />;
+    return <Img src={wezellaLogoUrl} alt="Wezella Sign Logo" className={className} />;
   }
 
   const brandingLogo = <Img src={branding.brandingLogo} alt="Branding Logo" className={className} />;
