@@ -13,7 +13,7 @@ export const AdminUserCreatedTemplate = ({
 }: TemplateAdminUserCreatedProps) => {
   const { _ } = useLingui();
 
-  const previewText = msg`Set your password for Documenso`;
+  const previewText = msg`Set your password for Wezella Sign`;
 
   return (
     <Html>
